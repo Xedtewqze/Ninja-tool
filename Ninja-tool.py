@@ -51,7 +51,7 @@ if vvvv =='':
 elif vvvv =="1":
      os.system("python3 DDoS.py")
 elif vvvv =="2":
-     os.system("python3 .py")
+     os.system("python3 Sherlock.py")
 elif vvvv =="3":
      os.system("python 3.py")
 elif vvvv =="4":
