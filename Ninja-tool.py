@@ -22,7 +22,7 @@ text = """
       |_____________________________________________________|
       |                                                     |
       |           [1]      ==>     DDoS site                |
-      |           [2]      ==>     Google Cards             |
+      |           [2]      ==>     Sherlock                 |
       |           [3]      ==>     Hacking Tools            |
       |           [4]      ==>     Masked Links             |
       |           [5]      ==>     DDoS Attack              |
