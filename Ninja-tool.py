@@ -21,7 +21,7 @@ text = """
        _____________________________________________________
       |_____________________________________________________|
       |                                                     |
-      |           [1]      ==>     Android Virus            |
+      |           [1]      ==>     DDoS site                |
       |           [2]      ==>     Google Cards             |
       |           [3]      ==>     Hacking Tools            |
       |           [4]      ==>     Masked Links             |
@@ -49,7 +49,7 @@ vvvv = input('''\033[1;34m
 if vvvv =='':
    os.system('python Dragon-Tool.py')
 elif vvvv =="1":
-     os.system("python 1.py")
+     os.system("python3 DDoS.py")
 elif vvvv =="2":
      os.system("python 2.py")
 elif vvvv =="3":
