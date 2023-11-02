@@ -23,7 +23,7 @@ text = """
       |                                                     |
       |           [1]      ==>     DDoS site                |
       |           [2]      ==>     Sherlock                 |
-      |           [3]      ==>     Hacking Tools            |
+      |           [3]      ==>     Ip info            |
       |           [4]      ==>     Masked Links             |
       |           [5]      ==>     DDoS Attack              |
       |           [6]      ==>     Metasploite Fix          |
