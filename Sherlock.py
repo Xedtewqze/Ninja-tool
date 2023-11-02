@@ -1,6 +1,5 @@
 import csv
 import signal
-import pandas as pd
 import os
 import platform
 import re
