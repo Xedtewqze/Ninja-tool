@@ -11,6 +11,7 @@ print ("""\033[1;36m
 
           By Xedtewqze
 """)
+os.system(f'echo "{text}" | lolcat')
 def get_ip_address(host):
     try:
         ip_address = socket.gethostbyname(host)
