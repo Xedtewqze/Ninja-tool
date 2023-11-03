@@ -24,7 +24,7 @@ text = """
       |           [1]      ==>     DDoS site                |
       |           [2]      ==>     Sherlock                 |
       |           [3]      ==>     Ip info                  |
-      |           [4]      ==>     Masked Links             |
+      |           [4]      ==>     IP info site             |
       |           [5]      ==>     DDoS Attack              |
       |           [6]      ==>     Metasploite Fix          |
       |           [7]      ==>     Peshing Website          |
@@ -55,7 +55,7 @@ elif vvvv =="2":
 elif vvvv =="3":
      os.system("python3 .py")
 elif vvvv =="4":
-     os.system("python 4.py")
+     os.system("python3 Ip web.py")
 elif vvvv =="5":
      os.system("python 5.py")
 elif vvvv =="6":
