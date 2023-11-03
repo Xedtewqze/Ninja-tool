@@ -46,3 +46,4 @@ while True:
     print("\033[1;35mHost name:\033[1;32m", host_info[0])
     print("\033[1;35mIP address:\033[1;32m", ip_address)
     print("\033[1;35mProvider:\033[1;32m", provider_info[0])
+
