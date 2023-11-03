@@ -11,6 +11,7 @@ import requests
 
 from requests_futures.sessions import FuturesSession
 from torrequest import TorRequest
+import QueryResult
 from Result import QueryResult
 from notify import QueryNotifyPrint
 from sites import SitesInformation
