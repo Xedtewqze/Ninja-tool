@@ -1,7 +1,7 @@
 import socket
 import os
 os.system("clear")
-print ("""\033[1;36m
+text = """
 .___                .__  __          
 |   |_____     _____|__|/  |_  ____  
 |   \____ \   /  ___/  \   __\/ __ \ 
@@ -10,7 +10,7 @@ print ("""\033[1;36m
     |__|          \/              \/   
 
           By Xedtewqze
-""")
+"""
 os.system(f'echo "{text}" | lolcat')
 def get_ip_address(host):
     try:
