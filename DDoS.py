@@ -4,8 +4,6 @@
 import os
 import sys
 
-from colorama import Fore
-
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
 os.system("cls" if os.name == "nt" else "clear")
 
