@@ -67,7 +67,7 @@ def dos2():
 
 
 def usage():
-	print (''' Ninja DDoS. \n
+	print ('''     Ninja DDoS. \n
 	usage : python3 DDoS.py [-s] [-p] [-t]
 	-h : help
 	-s : server ip
