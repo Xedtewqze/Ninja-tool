@@ -66,7 +66,7 @@ def dos2():
 		w.task_done()
 
 
-def usage():
+def usage""":
 	text = """
  _______  .__            __         ________  ________          _________
  \      \ |__| ____     |__|____    \______ \ \______ \   ____ /   _____/
@@ -88,7 +88,7 @@ def usage():
 os.system(f'echo "{text}" | lolcat')
   sys.exit"""
 
-
+       
 def get_parameters():
 	global host
 	global port
@@ -164,4 +164,4 @@ if __name__ == '__main__':
 			w.put(item)
 		q.join()
 		w.join()
-os.system(f'echo "{text}" | lolcat')
+
