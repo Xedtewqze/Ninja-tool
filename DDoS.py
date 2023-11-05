@@ -86,7 +86,7 @@ def usage():
       |_____________________________________________________|
       """
 os.system(f'echo "{text}" | lolcat')
-  sys.exit()
+  sys.exit"""
 
 
 def get_parameters():
