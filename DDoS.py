@@ -1,7 +1,7 @@
 
 from queue import Queue
 from optparse import OptionParser
-import time,sys,socket,threading,logging,urllib.request,random
+import time,sys,socket,threading,logging,urllib.request,random,os
 
 def user_agent():
 	global uagent
@@ -70,10 +70,10 @@ def dos2():
 def usage():
 	print (''' \033[92m	 _______  .__            __         ________  ________          _________
                                  \      \ |__| ____     |__|____    \______ \ \______ \   ____ /   _____/
-                                  /   |   \|  |/    \    |  \__  \    |    |  \ |    |  \ /  _ \\_____  \ 
+                                 /   |   \|  |/    \    |  \__  \    |    |  \ |    |  \ /  _ \\_____  \ 
                                 /    |    \  |   |  \   |  |/ __ \_  |    `   \|    `   (  <_> )        \
                                 \____|__  /__|___|  /\__|  (____  / /_______  /_______  /\____/_______  /
-                                        \/        \/\______|    \/          \/        \/              \/  \n
+                                        \/        \/\______|    \/          \/        \/              \/   \n
 	usage : python3 DDoS.py [-s] [-p] [-t]
 	-h : help
 	-s : server ip
