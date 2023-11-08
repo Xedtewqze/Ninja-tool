@@ -79,8 +79,7 @@ def usage():
 	-s : server ip
 	-p : port default 80
 	-t : turbo default 135 \033[0m''')
-	sys.exit()
-       os.system(f'echo "{print}" | lolcat')
+	os.system(f'echo "{print}" | lolcat')
 
 def get_parameters():
 	global host
