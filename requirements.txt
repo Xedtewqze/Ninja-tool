@@ -8,3 +8,9 @@ icmplib>=2.1.1
 pyasn1==0.4.8
 pyroxy @ git+https://github.com/MatrixTM/PyRoxy.git
 yarl>=1.7.2 
+requests >= 2.28.1
+colorama >= 0.4.5
+humanfriendly >= 10.0
+PySocks >= 1.7.1
+scapy >= 2.4.5
+get_mac >= 0.8.3
