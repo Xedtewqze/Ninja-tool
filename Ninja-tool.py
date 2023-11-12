@@ -57,13 +57,13 @@ elif vvvv =="3":
 elif vvvv =="4":
      os.system("python3 Ip-web.py")
 elif vvvv =="5":
-     os.system("python 5.py")
+     os.system("python3 5.py")
 elif vvvv =="6":
-     os.system("python 6.py")
+     os.system("python3 6.py")
 elif vvvv =="7":
      os.system("bash 7.sh")
 elif vvvv =="8":
-     os.system("python 8.py")
+     os.system("python3 8.py")
 elif vvvv =="9":
      os.system("python 9.py")
 elif vvvv =="10":
