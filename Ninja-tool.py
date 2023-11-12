@@ -26,7 +26,7 @@ text = """
       |           [3]      ==>     Ip info                  |
       |           [4]      ==>     IP info site             |
       |           [5]      ==>     DDoS Attack              |
-      |           [6]      ==>     phishing ( with ip)        |
+      |           [6]      ==>     phishing (with ip)            |
       |           [7]      ==>     Peshing Website          |
       |           [8]      ==>     Generator Payload        |
       |           [9]      ==>     Ip Info                  |
