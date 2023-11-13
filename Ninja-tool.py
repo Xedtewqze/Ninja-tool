@@ -26,7 +26,7 @@ text = """
       |           [3]      ==>     Ip info                  |
       |           [4]      ==>     IP info site             |
       |           [5]      ==>     DDoS Attack              |
-      |           [6]      ==>     phishing (with ip)            |
+      |           [6]      ==>     phishing (with ip)       |
       |           [7]      ==>     Peshing Website          |
       |           [8]      ==>     Generator Payload        |
       |           [9]      ==>     Ip Info                  |
@@ -59,7 +59,7 @@ elif vvvv =="4":
 elif vvvv =="5":
      os.system("python3 5.py")
 elif vvvv =="6":
-     os.system("python3 6.py")
+     os.system("bash jsp.sh")
 elif vvvv =="7":
      os.system("bash 7.sh")
 elif vvvv =="8":
