@@ -1,8 +1,6 @@
 import os
 import sys
 
-from colorama import Fore
-
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
 os.system("cls" if os.name == "nt" else "clear")
 
@@ -19,8 +17,7 @@ except (ImportError, NameError) as err:
 
 def main() -> None:
     """Run main application."""
-    show_logo()
-    try:
+       try:
         if (method := check_method_input()) in ["arp-spoof", "disconnect"]:
             show_local_host_ips()
         target = (
@@ -52,4 +49,4 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+
