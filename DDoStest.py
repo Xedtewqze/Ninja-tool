@@ -5,11 +5,11 @@ os.chdir(os.path.dirname(os.path.realpath(__file__)))
 os.system("cls" if os.name == "nt" else "clear")
 
 try:
-    from tools.addons.checks import (check_http_target_input,
+    from tools.checks import (check_http_target_input,
                                      check_local_target_input,
                                      check_method_input, check_number_input)
-    from tools.addons.ip_tools import show_local_host_ips
-    from tools.addons.logo import show_logo
+    from tools.ip_tools import show_local_host_ips
+    from tools.logo import show_logo
     from tools.method import AttackMethod
 except (ImportError, NameError) as err:
     print("\nFailed to import something", err)
