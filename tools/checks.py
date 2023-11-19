@@ -6,7 +6,7 @@ import requests
 from colorama import Fore as F
 from requests.exceptions import ConnectionError, InvalidURL, ReadTimeout
 
-from tools.addons.ip_tools import __get_local_host_ips, set_target_http
+from tools.ip_tools import __get_local_host_ips, set_target_http
 
 
 def check_method_input() -> str:
