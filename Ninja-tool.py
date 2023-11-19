@@ -49,7 +49,7 @@ vvvv = input('''\033[1;34m
 if vvvv =='':
    os.system('python Dragon-Tool.py')
 elif vvvv =="1":
-     os.system("python3 DDoStest.py")
+     os.system("python3 DDoS.py")
 elif vvvv =="2":
      os.system("python3 Sherlock.py")
 elif vvvv =="3":
