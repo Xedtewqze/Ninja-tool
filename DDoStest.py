@@ -4,7 +4,7 @@ import sys
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
 os.system("cls" if os.name == "nt" else "clear")
 
-    from tools.checks import (check_http_target_input,
+    from tools import (check_http_target_input,
                                      check_local_target_input,
                                      check_method_input, check_number_input)
     from tools.ip_tools import show_local_host_ips
