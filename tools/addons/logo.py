@@ -1,6 +1,6 @@
 
 import os
-
+import sys
 
 
 def show_logo() -> None:
@@ -25,6 +25,5 @@ os.system(f'echo "{show_logo}" | lolcat')
 print("├─── DOS TOOL")
 print("├─── AVAILABLE METHODS")
 print("├─── LAYER 7: HTTP | HTTP-PROXY | SLOWLORIS | SLOWLORIS-PROXY")
-    if os.name != "nt":
 print("├─── LAYER 4: SYN-FLOOD")
 print("├───┐")
