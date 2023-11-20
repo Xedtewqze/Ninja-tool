@@ -22,7 +22,7 @@ def show_logo() -> None:
           \/        \/\______|    \/          \/        \/              \/ 
   """
 
-   os.system(f'echo "{show_logo}" | lolcat')    
+   os.system(f'echo "{show_logo()}" | lolcat')    
     print("├─── DOS TOOL")
     print("├─── AVAILABLE METHODS")
     print("├─── LAYER 7: HTTP | HTTP-PROXY | SLOWLORIS | SLOWLORIS-PROXY")
