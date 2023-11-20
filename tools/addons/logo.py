@@ -1,6 +1,6 @@
 
 import os
-import sys
+from colorama import Fore as F
 
 
 def show_logo() -> None:
@@ -21,9 +21,11 @@ def show_logo() -> None:
           \/        \/\______|    \/          \/        \/              \/ 
   """
 
-os.system(f'echo "{show_logo}" | lolcat')    
-print("├─── DOS TOOL")
-print("├─── AVAILABLE METHODS")
-print("├─── LAYER 7: HTTP | HTTP-PROXY | SLOWLORIS | SLOWLORIS-PROXY")
-print("├─── LAYER 4: SYN-FLOOD")
-print("├───┐")
+
+    print(f"{F.RED}{logo}")
+    print("├─── DOS TOOL")
+    print("├─── AVAILABLE METHODS")
+    print("├─── LAYER 7: HTTP | HTTP-PROXY | SLOWLORIS | SLOWLORIS-PROXY")
+    if os.name != "nt":
+        print("├─── LAYER 4: SYN-FLOOD")
+    print("├───┐")
