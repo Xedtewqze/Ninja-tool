@@ -1,6 +1,6 @@
 
 import os
-from colorama import Fore as f 
+from colorama import Fore as F
 
 def show_logo() -> None:
     """Print the application logo.
