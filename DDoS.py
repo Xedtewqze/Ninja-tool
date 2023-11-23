@@ -19,8 +19,8 @@ except (ImportError, NameError) as err:
 
 def main() -> None:
     """Run main application."""
-     show_logo()
-     try:
+show_logo()
+try:
         if (method := check_method_input()) in ["arp-spoof", "disconnect"]:
             show_local_host_ips()
         target = (
