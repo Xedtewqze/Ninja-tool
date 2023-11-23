@@ -44,7 +44,7 @@ try:
             sleep_time=sleep_time,
         ) as attack:
             attack.start()
-    except KeyboardInterrupt:
+except KeyboardInterrupt:
         print(
             f"\n\n{Fore.RED}[!] {Fore.MAGENTA}Ctrl+C detected. Program closed.\n\n{Fore.RESET}"
         )
