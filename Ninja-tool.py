@@ -53,7 +53,7 @@ elif vvvv =="1":
 elif vvvv =="2":
      os.system("python3 Sherlock.py")
 elif vvvv =="3":
-     os.system("python3 .py")
+     os.system("python3 Ip.py")
 elif vvvv =="4":
      os.system("python3 Ip-web.py")
 elif vvvv =="5":
