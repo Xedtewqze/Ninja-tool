@@ -43,9 +43,11 @@ text = """
 """
 os.system(f'echo "{text}" | lolcat')
 
-vvvv = input('''\033[1;34m
+vvvv = input('''
 
-            Enter Number\033[1;35m ==> √  \033[1;36m:    ''')
+            Enter Number\033[1;35m ==> √  '''
+os.system(f'echo "{vvvv}" | lolcat')
+
 if vvvv =='':
    os.system('python Dragon-Tool.py')
 elif vvvv =="1":
