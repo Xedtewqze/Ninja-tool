@@ -43,9 +43,7 @@ text = """
 """
 os.system(f'echo "{text}" | lolcat')
 
-vvvv = input('''
-
-            Enter Number\033[1;35m ==> √  '''
+vvvv = input('''Enter Number\033[1;35m ==> √  '''
 os.system(f'echo "{vvvv}" | lolcat')
 
 if vvvv =='':
